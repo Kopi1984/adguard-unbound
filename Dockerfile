@@ -1,7 +1,7 @@
 FROM alpine:3.13.5
  
 RUN apk add --no-cache \
-	unbound=1.13.0-r3
+	unbound=1.13.2-r0
 
 WORKDIR /tmp
 
