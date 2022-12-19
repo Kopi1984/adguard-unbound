@@ -1,4 +1,4 @@
-FROM alpine:3.15.5
+FROM alpine:3.17.0
 
 ARG TARGETPLATFORM
 ARG TARGETARCH
@@ -11,7 +11,7 @@ RUN printf '..%s..' "I'm building for TARGETPLATFORM=${TARGETPLATFORM}" \
 
 RUN apk add --no-cache \
         libcap \
-        unbound=1.13.2-r2
+        unbound=1.17.0
 
 WORKDIR /tmp
 
