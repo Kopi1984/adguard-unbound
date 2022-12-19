@@ -1,5 +1,5 @@
 name: Docker Image CI
-
+# Add a new comment to trigger build.
 on:
   push:
     branches: [ "master" ]
